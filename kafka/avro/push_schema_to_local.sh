@@ -20,7 +20,7 @@ upload_schema(){
             --data '{"schema": "'"$content"'"}' \
             $REGISTRY_SERVER:8081/subjects/$2/versions
         curl -X PUT -H "Content-Type: application/vnd.schemaregistry.v1+json" \
-            --data '{"compatibility": "FULL"}' \
+            --data '{"compatibility": "FULL"}' 
             $REGISTRY_SERVER:8081/config/$2
         echo ""
     fi

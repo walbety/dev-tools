@@ -8,8 +8,6 @@ up:
 	docker compose up -d
 	@echo inserindo registros schema ...
 	cd /tmp/ && \
-	rm -rf /tmp/pay-configuration && \
-	git clone --branch develop git@bitbucket.org:bexstech/pay-configuration.git && \
 	echo "**************************************" && \
 	echo "Aguardando 1 minuto para estabilizar o registry ..." && \
 	echo "**************************************" && \

@@ -1,7 +1,7 @@
 ## To connect pgadmin with postgres database
 - run docker container ls
 - copy the container id os postgres image running
-- access http://localhost:16543/ or the port which corresponds to pg-admin in the docker-compose file
+- access http://localhost:33002/ or the port which corresponds to pg-admin in the docker-compose file
 - use the credentials defined for pg-admin
 - click Add New Server
 - in the field  Name, chose at your discretion

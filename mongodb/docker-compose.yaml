@@ -21,7 +21,7 @@ services:
       - ME_CONFIG_MONGODB_ADMINUSERNAME=root
       - ME_CONFIG_MONGODB_ADMINPASSWORD=rootpassword
     ports:
-      - "8082:8081"
+      - "33001:8081"
     restart: on-failure
     depends_on:
       - mongo_db
